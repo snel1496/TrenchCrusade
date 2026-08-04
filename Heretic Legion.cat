@@ -4429,6 +4429,9 @@ Melee Chassis counts as two one handed melee weapons for the purposes of equippi
           <costs>
             <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="50"/>
           </costs>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="d395-8e03-6b31-3a1c" includeChildSelections="false"/>
+          </constraints>
           <modifiers>
             <modifier type="add" value="Cannot combine Machine Armor and Shield" field="error">
               <conditionGroups>
